@@ -1,0 +1,26 @@
+# Dependencies / build
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+coverage/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.log
+
+# Local / temp
+.local/
+.tmp/
+.cache/
